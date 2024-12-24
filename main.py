@@ -17,3 +17,9 @@ def mult(a, b):
     return a * b
 
 print(mult(3, 2))
+
+# feature4: Añade función de división
+def div(a, b):
+    return a / b
+
+print(div(6, 2))
