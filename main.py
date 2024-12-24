@@ -20,11 +20,20 @@ print(mult(3, 2))
 
 # feature4: Añade función de división
 def div(a, b):
-    return a / b
+    if b == 0:
+        print("No se puede dividir por 0")
+    else:
+        return a / b
 
 print(div(6, 2))
 
 # feature5: Añade función de módulo
+def mod(a, b):
+    return a % b
+
+print(div(6, 2))
+
+# feature6: Añade función de módulo
 def mod(a, b):
     return a % b
 
