@@ -23,3 +23,9 @@ def div(a, b):
     return a / b
 
 print(div(6, 2))
+
+# feature5: Añade función de módulo
+def mod(a, b):
+    return a % b
+
+print(div(6, 2))
