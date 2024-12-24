@@ -31,10 +31,4 @@ print(div(6, 2))
 def mod(a, b):
     return a % b
 
-print(div(6, 2))
-
-# feature6: Añade función de módulo
-def mod(a, b):
-    return a % b
-
-print(div(6, 2))
+print(mod(6, 2))
