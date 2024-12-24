@@ -14,7 +14,7 @@ print(resta(3, 2))
 
 # feature3: Añade función de multiplicación
 def mult(a, b):
-    return a * b
+    return a + b
 
 print(mult(3, 2))
 
